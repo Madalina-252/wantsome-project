@@ -1,0 +1,24 @@
+
+#intro {
+    height: 50px;
+    width: 1000px;
+    background-color: lavender;
+
+}
+
+
+#container {
+    height: 400px;
+    width: 1000px;
+    background-color: grey;
+}
+
+#footer {
+    height: 50px;
+    width: 1000px;
+    background-color: linen;
+}
+
+.grid {
+    margin-left: 40px;
+}
