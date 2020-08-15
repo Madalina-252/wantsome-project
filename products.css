@@ -3,23 +3,32 @@ body {
   }
   
   header {
-    background-color: grey;
-    color: ivory;
+    
     font-size: 40px;
-    width: 1262px;
+    width: 1300px;
     height: 50px;
-    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+
   }
   
   .card {
-    margin: 5px;
-    height: 300px;
-    width: 196px;
-    border-style: solid;
+    margin: 15px;
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    border: 10px;
   
   }
   
   #container {
-  display: flex; 
+
+  display: flex;
   flex-wrap: wrap;
+  }
+
+  button {
+    padding: 5px;
   }

@@ -1,40 +1,29 @@
 var prod1 = {
-    image: "src/imageingres.jpg",
-    title: " Product 1 ",
-    price: 0
+    image: "images/norway.jpg",
+    title: " Bergen ",
+    price: "480 RON"  
   };
   
   var prod2 = {
-    image: "src/imageingres.jpg",
-    title: " Product 2 ",
-    price: 0
+    image: "images/bavaria.jpg",
+    title: " The Alps ",
+    price: "450 RON"
   };
   
   var prod3 = {
-    image: "src/imageingres.jpg",
-    title: " Product 3 ",
-    price: 0
+    image: "images/architecture.jpg",
+    title: " Sevilla ",
+    price: "420 RON"
   };
-  
+
   var prod4 = {
-    image: "src/imageingres.jpg",
-    title: " Product 4 ",
-    price: 0 
+    image: "images/roses.jpg",
+    title: " Granada Rose Garden ",
+    price: "420 RON"
   };
   
-  var prod5 = {
-    image: "src/imageingres.jpg",
-    title: " Product 5 ",
-    price: 0
-  };
   
-  var prod6 = {
-    image: "src/imageingres.jpg",
-    title: " Product 6 ",
-    price: 0
-  };
-  
-  var myProducts = [prod1, prod2, prod3, prod4, prod5, prod6];
+  var myProducts = [prod1, prod2, prod3, prod4];
   
   for (var i = 0; i < myProducts.length; i++) {
     showCard(myProducts[i].image, myProducts[i].title, myProducts[i].price, i);
@@ -57,13 +46,14 @@ var prod1 = {
     button.id = position;
     button.innerText = "Add to cart";
     card.appendChild(button);
+
   }
   
   var container = document.getElementById("container");
   container.addEventListener("click", function (event) {
     if (event.target.nodeName === "BUTTON") {
       console.log("Click pe buttonul", event.target.id);
-      alert("Added " + myProducts[event.target.id].title)
+      alert("Added: " + myProducts[event.target.id].title)
     }
   });
   
