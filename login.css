@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     padding: 50px;
+    background-image: url('images/login-background.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 }
 
 form {
@@ -66,4 +70,8 @@ button:hover {
 
 button:focus {
     outline: none;
+}
+
+.navigation {
+    font-size: 12px;
 }
