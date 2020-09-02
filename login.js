@@ -1,3 +1,6 @@
+
+// button
+
 var email = document.getElementById("email");
 var password = document.getElementById("password");
 var form = document.querySelector("form");
@@ -20,3 +23,7 @@ form.addEventListener("submit", function (e) {
       window.location.assign("products.html");
     });
 });
+
+
+
+

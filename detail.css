@@ -1,0 +1,22 @@
+
+#img-container {
+
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+}
+
+#text-container {
+    width: 300px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+.content {
+    display: inline-block;
+    margin: 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+    
+}
+

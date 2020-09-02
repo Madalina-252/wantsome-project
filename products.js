@@ -2,7 +2,7 @@ var prod1 = {
     image: "images/norway.jpg",
     title: " Bergen ",
     price: 480,
-    product_id: 19,
+    product_id: 1,
     currency: " RON"
   };
   
@@ -10,7 +10,7 @@ var prod1 = {
     image: "images/bavaria.jpg",
     title: " The Alps ",
     price: 450,
-    product_id: 14,
+    product_id: 2,
     currency: " RON"
   };
   
@@ -18,7 +18,7 @@ var prod1 = {
     image: "images/grays.jpg",
     title: " Sevilla ",
     price: 420,
-    product_id: 12,
+    product_id: 3,
     currency: " RON"
   };
 
@@ -26,7 +26,7 @@ var prod1 = {
     image: "images/roses.jpg",
     title: " Granada Rose Garden ",
     price: 420,
-    product_id: 15,
+    product_id: 4,
     currency: " RON"
   };
   
@@ -60,9 +60,9 @@ var prod1 = {
     button.innerText = "Add to cart";
     card.appendChild(button);
     var buttonDetails = document.createElement("button");
-    buttonDetails.id = position;
+    buttonDetails.id = product_id;
     buttonDetails.setAttribute("details", true);
-    buttonDetails.innerText = "Details";
+    buttonDetails.innerText = "See Details";
     card.appendChild(buttonDetails);
 
   }
@@ -75,12 +75,10 @@ var prod1 = {
         alert("Added: " + myProducts[event.target.id].title)
       }
       if (event.target.getAttribute("details")==="true") {
-        window.location.href="detail-page.html?product_id=" + event.target.id;
+        window.location.href="detail-page"+event.target.id+".html";
         // console.log("Click pe buttonul details cu id ",  myProducts[event.target.id].product_id);
         // alert("Details: " + myProducts[event.target.id].title)
       }
     }
   });
-  
-  // Filter
 

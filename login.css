@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     padding: 50px;
-    background-image: url('images/login-background.jpg');
+    background-image: url('images/simple.png');
     background-repeat: no-repeat;
+    background-size: 100%;
     
-    background-size: cover;
 }
 
 form {
@@ -20,8 +20,7 @@ form {
 }
 
 form .field:focus {
-    background-color: greenyellow;
-    /*de schimbat aici*/
+    background-color: #E5E5E5;
     outline: none;
 }
 
@@ -57,15 +56,20 @@ button {
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    width: 160px;
+    width: 140px;
+    height:40px;
     cursor: pointer;
+    transition: all 0.3s;
     
 }
 
 button:hover {
     opacity: 0.8;
-    background-color: indianred;
-    /*de schimbat aici*/
+    background-color:  #E5E5E5;
+    width:145px;
+    height: 45px;
+    font-size: 15px;
+    
 }
 
 button:focus {
