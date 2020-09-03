@@ -18,13 +18,13 @@ header {
 
 h1 {
   padding-top: 20px;
-  color:  #E5E5E5;
+  color: #666666;
   font-size:30px;
   transition: all 0.5s;
 }
 
 h1:hover {
-  color:black;
+  color: #333333;
   font-size: 31px;
  
 }
@@ -176,7 +176,7 @@ footer {
 #footer-content {
   margin: 360px;
   display: inline;
-  color: gainsboro;
+  color: #333333;
   font-size: 15px;
   transition: all 0.5s;
   
@@ -186,3 +186,5 @@ footer {
   color:black;
   font-size: 16px;
 }
+
+
