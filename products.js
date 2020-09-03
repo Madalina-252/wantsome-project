@@ -16,7 +16,7 @@ var prod1 = {
   
   var prod3 = {
     image: "images/grays.jpg",
-    title: " Sevilla ",
+    title: " Rarau Forests ",
     price: 420,
     product_id: 3,
     currency: " RON"
